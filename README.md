@@ -29,8 +29,7 @@ Desktop View Footer
 - Grid
 
 # Live Demo
-
-https://john-arboleda.github.io/TNW-clone-page/
+https://emmyn5600.github.io/TNW-clone-page-cont/
 
 # Getting started 
 
