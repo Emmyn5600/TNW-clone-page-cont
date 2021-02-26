@@ -29,7 +29,7 @@ Desktop View Footer
 - Grid
 
 # Live Demo
-https://emmyn5600.github.io/TNW-clone-page-cont/
+ https://emmyn5600.github.io/TNW-clone-page-cont/
 
 # Getting started 
 
