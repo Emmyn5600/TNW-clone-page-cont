@@ -861,13 +861,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 3px;
-    padding: 5px; 
-  }
-
-  .grid-item a {
-    font-family: sans-serif;
-    font-size: 12px;
-    font-weight: 700;
+    padding: 5px;
   }
 
   .writteen a {
@@ -883,7 +877,7 @@ footer {
   .image_1 {
     height: 130px;
     width: 250px;
-  } 
+  }
 
   /* Categories */
 
@@ -1064,6 +1058,17 @@ footer {
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   }
 
+  .grid-item a {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .writteen a {
+    font-size: 10px;
+    color: #555;
+  }
+
   .highlight_1 .header_title a {
     font-size: 60px;
     font-weight: 700;
@@ -1123,13 +1128,8 @@ footer {
     font-weight: bold;
   }
 
-  .writteen a {
-    font-size: 10px;
-    color: #555;
-  }
-
   .categories-section {
-    width:29.5%;
+    width: 29.5%;
   }
 
   .categories {
@@ -1191,5 +1191,5 @@ footer {
   .good-price {
     font-size: 20px;
     color: #555;
-    }
   }
+}
