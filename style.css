@@ -630,6 +630,84 @@ a {
   margin-left: 0;
 }
 
+/* Latest deals*/
+
+.latest-deal-item {
+  position: relative;
+}
+
+.latest-deals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-news {
+  width: 90%;
+  max-width: 1150px;
+  margin: 30px auto;
+}
+
+.latest-news-title {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 900;
+  margin: 10px 0;
+  font-family: Avalon, sans-serif;
+  text-decoration: none;
+}
+
+.more-deals {
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest-article {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.latest-article-title {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0 0 7px 0;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.latest-article-title:hover {
+  color: #f42;
+}
+
+.latest-article-publication {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.discount,
+.ribbon {
+  display: none;
+}
+
+.price-tag li {
+  display: inline;
+}
+
+.high-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.good-price {
+  font-size: 18px;
+  color: #555;
+}
+
 /* footer */
 
 footer {
@@ -818,6 +896,68 @@ footer {
 
   .categories-section {
     width: 45%;
+  }
+
+  .latest-deals-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .more-deals {
+    text-decoration: none;
+    color: #f42;
+  }
+  .latest-article-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+   .latest-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ribbon {
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  }
+
+  /* for latest deals: ribbons and discounts */
+  .discount,
+  .ribbon {
+    display: block;
+  }
+
+  .discount {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: rotate(45deg);
+    width: 100px;
+  }
+
+  .discount::after {
+    content: '% OFF';
+  }
+
+  .latest-article-photo {
+    width: 100%;
+    height: 150px;
+  }
+
+  .latest-deal-item img {
+    width: 270px;
+    height: 201px;
   }
   
 
