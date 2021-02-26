@@ -992,7 +992,7 @@ footer {
 
 /* Desktop */
 
- @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .logo-container {
     display: none;
   }
@@ -1121,6 +1121,7 @@ footer {
     padding: 10px; 
     margin-left: 90px;
     width: 100%;
+    
   }
 
   .categories-section {
@@ -1134,7 +1135,7 @@ footer {
   .latest-deals-section {
     margin-left: 5px;
   }
-  
+
   .latest-article-container {
     display: grid;
     gap: 23px;
