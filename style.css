@@ -778,7 +778,7 @@ footer {
   .black-menu-container,
   .left-white-menu {
     display: flex;
-}
+  }
 
   .white-menu-container {
     justify-content: space-between;
@@ -871,7 +871,7 @@ footer {
 
   .grid-item {
     display: grid;
-    margin:0;
+    margin: 0;
   }
 
   .image_1 {
@@ -900,6 +900,7 @@ footer {
     text-decoration: none;
     color: #f42;
   }
+
   .latest-article-container {
     display: grid;
     gap: 25px;
@@ -987,7 +988,7 @@ footer {
   .legal-text {
     display: inline;
   }
-  }
+}
 
 /* Desktop */
 
@@ -1133,6 +1134,7 @@ footer {
   .latest-deals-section {
     margin-left: 5px;
   }
+  
   .latest-article-container {
     display: grid;
     gap: 23px;
