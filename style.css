@@ -953,7 +953,6 @@ footer {
     height: 201px;
   }
 
-
   .latest-article-title {
     font-size: 16px;
     line-height: 22px;
@@ -974,7 +973,6 @@ footer {
     content: '$';
   }
 
-
   /* footer tablet */
 
   .footer-legal {
@@ -991,9 +989,9 @@ footer {
   }
   }
 
-  /* Desktop */
+/* Desktop */
 
-  @media (min-width: 1024px) {
+ @media (min-width: 1024px) {
   .logo-container {
     display: none;
   }
@@ -1122,10 +1120,6 @@ footer {
     padding: 10px; 
     margin-left: 90px;
     width: 100%;
-  }
-  .grid-item a {
-    font-size: 15px;
-    font-weight: bold;
   }
 
   .categories-section {
