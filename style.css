@@ -449,11 +449,11 @@ a {
 }
 
 .cat-latest-text,
-.cat-title-div {
+.category-title {
   color: #f42;
 }
 
-.cat-title-div {
+.category-title {
   font-size: 26px;
   font-family: Avalon, sans-serif;
   font-weight: 800;
@@ -546,7 +546,7 @@ a {
   background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg");
 }
 
-.cat-post-container {
+.categories-section {
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -561,12 +561,12 @@ a {
   z-index: 3;
 }
 
-.article-mp,
+.article-headline,
 .credit-mp {
   display: block;
 }
 
-.cat-title-mp {
+.cat-title-head {
   font-size: 14px;
   font-family: Shentox, sans-serif;
   font-weight: 500;
@@ -574,7 +574,7 @@ a {
   line-height: 1.5;
 }
 
-.article-mp {
+.article-headline {
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
@@ -599,7 +599,7 @@ a {
 }
 
 .cat-most-popular,
-.cat-list-link,
+.section-headline,
 .cat-latest-text {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
@@ -614,7 +614,7 @@ a {
   font-weight: 600;
 }
 
-.cat-list-link {
+.section-headline {
   line-height: 30px;
   color: #555;
   font-size: 12px;
@@ -816,7 +816,7 @@ footer {
     flex-wrap: wrap;
   }
 
-  .cat-post-container {
+  .categories-section {
     width: 45%;
   }
   
@@ -962,7 +962,7 @@ footer {
     color: #555;
   }
 
-  .cat-post-container {
+  .categories-section {
     width:29.5%;
   }
 
