@@ -959,6 +959,27 @@ footer {
     width: 270px;
     height: 201px;
   }
+
+  
+  .latest-article-title {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  .price-tag {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .price-tag li {
+    display: inline;
+    margin: 5px 7px 5px 0;
+  }
+  
+  .price-tag li::before {
+    content: '$';
+  }
   
 
   /* footer tablet */
