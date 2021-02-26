@@ -805,20 +805,20 @@ footer {
 
   .highlight_1,
   .small-highlight {
-  height: 100%;
+    height: 100%;
   }
 
   .highlight_2,
   .highlight_3 {
-  height: 50%;
+    height: 50%;
   }
 
   .highlight_3 {
-  margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   .highlight_1 {
-  width: 66%;
+    width: 66%;
   }
 
   .small-highlight {
