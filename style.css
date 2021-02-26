@@ -97,14 +97,15 @@ a {
   font-size: 18px;
 }
 
-.left-black-menu,
-.right-black-menu
-a:hover {
+.left-black-menu a:hover {
   color: #fff;
 }
 
-.left-white-menu
-a:hover {
+.right-black-menu a:hover {
+  color: #fff;
+}
+
+.left-white-menu a:hover {
   color: #000;
 }
 
