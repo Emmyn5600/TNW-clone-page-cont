@@ -506,6 +506,12 @@ footer {
     width: 32%;
   }
 
+  .cover-title .cover-title-1 {
+    font-size: 3em;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    font-weight: bold;
+  }
+
   /* latest funding tablet */
 
   .latest-posts-container {
