@@ -808,6 +808,17 @@ footer {
     height: 130px;
     width: 250px;
   } 
+
+   /* Categories */
+
+   .categories {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cat-post-container {
+    width: 45%;
+  }
   
 
   /* footer tablet */
