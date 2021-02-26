@@ -961,4 +961,12 @@ footer {
     font-size: 10px;
     color: #555;
   }
+
+  .cat-post-container {
+    width:29.5%;
+  }
+
+  .categories {
+    margin-left: 90px;
+  }
 }
