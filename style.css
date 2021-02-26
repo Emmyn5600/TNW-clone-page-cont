@@ -1102,17 +1102,23 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
+
+  .latest-news {
+    margin-left: 3px;
+    width: 100%;
+    padding: 10px;
+  }
   
   .latest_news_heading {
-    margin-left: 90px;
+    margin-left: 80px;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 5px; 
-    margin-left: 100px;
-    width: 87%;
+    padding: 10px; 
+    margin-left: 90px;
+    width: 100%;
   }
   .grid-item a {
     font-size: 15px;
