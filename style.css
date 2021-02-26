@@ -83,6 +83,20 @@ a {
   font-size: 13px;
 }
 
+.cover-byline_1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header_title a {
+  position: absolute;
+  bottom: 30px;
+  left: 9px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
 .left-black-menu,
 .right-black-menu
 a:hover {
@@ -210,15 +224,6 @@ a:hover {
   background-blend-mode: color-burn;
 }
 
-.header_title a {
-  position: absolute;
-  bottom: 30px;
-  left: 9px;
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-
 .sub_header_title {
   position: absolute;
   display: flex;
@@ -236,11 +241,6 @@ a:hover {
 .cover-byline_1 {
   display: inline-block;
   padding: 5px;
-}
-
-.cover-byline_1 a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .hightlight_2 {
