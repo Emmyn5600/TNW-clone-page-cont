@@ -1,4 +1,3 @@
-
 html {
   overflow-x: hidden;
 }
@@ -95,6 +94,37 @@ a {
   text-decoration: none;
   color: white;
   font-size: 18px;
+}
+
+.latest_news_heading a {
+  left: 40px;
+  color: #f42;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  margin-left: 0;
+}
+
+.grid-item a {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+  margin: 5px;
+}
+
+.writteen a {
+  font-family: sans-serif;
+  margin-left: 20px;
+  font-size: 10px;
+  color: #555;
+}
+
+.cat-latest-text > a {
+  font-weight: 600;
 }
 
 .left-black-menu a:hover {
@@ -387,6 +417,302 @@ a {
   color: #aaa;
 }
 
+/* Lates news */
+
+.latest-news-article {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.latest-news-article-title {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0 0 7px 0;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.author {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.author-time {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.latest-news-article-title:hover {
+  color: #f42;
+}
+
+/* Categories section */
+
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-latest-text,
+.category-title {
+  color: #f42;
+}
+
+.category-title {
+  font-size: 26px;
+  font-family: Avalon, sans-serif;
+  font-weight: 800;
+  padding-bottom: 18px;
+}
+
+.cat-latest {
+  background: rgba(255, 68, 34, 0.08);
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-latest-img {
+  background-position: center;
+  background-size: cover;
+  padding-left: 96px;
+  height: 96px;
+  width: auto;
+}
+
+.hard-fork-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.hard-fork-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg");
+}
+
+.apps-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.apps-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/header-image-bernie-sitting-meme-analysis.png");
+}
+
+.gear-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.gear-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg");
+}
+
+.tech-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-368x276.jpg"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.tech-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-52.jpg");
+}
+
+.creative-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.creative-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13.jpg");
+}
+
+.podium-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.podium-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium.png");
+}
+
+.insights-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/zoom-fundraising-gq-368x276.png"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.insights-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/dev-leadership-gq.png");
+}
+
+.launch-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.launch-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg");
+}
+
+.distract-mp {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/amplified-368x276.jpg"), linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.distract-lt {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg");
+}
+
+.categories-section {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-mp {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.article-headline,
+.credit-mp {
+  display: block;
+}
+
+.cat-title-head {
+  font-size: 14px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.article-headline {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.credit-mp {
+  font-size: 12px;
+  color: #555;
+}
+
+.cat-most-popular {
+  padding-top: calc(576 / 768 * 100%);
+  position: relative;
+  color: white;
+  background-blend-mode: color-burn;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  max-height: 710px;
+}
+
+.cat-most-popular,
+.section-headline,
+.cat-latest-text {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.cat-latest-text {
+  padding: 10px 14px 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.section-headline {
+  line-height: 30px;
+  color: #555;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.cat-list li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0;
+}
+
+/* Latest deals */
+
+.latest-deal-item {
+  position: relative;
+}
+
+.latest-deals-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-news {
+  width: 90%;
+  max-width: 1150px;
+  margin: 30px auto;
+}
+
+.latest-news-title {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 900;
+  margin: 10px 0;
+  font-family: Avalon, sans-serif;
+  text-decoration: none;
+}
+
+.more-deals {
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest-article {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.latest-article-title {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0 0 7px 0;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.latest-article-title:hover {
+  color: #f42;
+}
+
+.latest-article-publication {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.discount,
+.ribbon {
+  display: none;
+}
+
+.price-tag li {
+  display: inline;
+}
+
+.high-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.good-price {
+  font-size: 18px;
+  color: #555;
+}
+
 /* footer */
 
 footer {
@@ -536,6 +862,125 @@ footer {
     padding-left: 15px;
   }
 
+  /* Latest new tablet */
+
+  .grid-container {
+    display: grid;
+    gap: 23px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .latest-news-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news-article-photo {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #000;
+  }
+
+  .latest-news-item img {
+    width: 100%;
+    height: 190px;
+  }
+
+  /* Categories */
+
+  .categories {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .categories-section {
+    width: 45%;
+  }
+
+  .latest-deals-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .more-deals {
+    text-decoration: none;
+    color: #f42;
+  }
+
+  .latest-article-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .latest-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ribbon {
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  }
+
+  /* for latest deals: ribbons and discounts */
+  .discount,
+  .ribbon {
+    display: block;
+  }
+
+  .discount {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: rotate(45deg);
+    width: 100px;
+  }
+
+  .discount::after {
+    content: '% OFF';
+  }
+
+  .latest-article-photo {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #000;
+  }
+
+  .latest-deal-item img {
+    width: 230px;
+    height: 201px;
+  }
+
+  .latest-article-title {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  .price-tag {
+    padding: 0;
+    margin: 0;
+  }
+
+  .price-tag li {
+    display: inline;
+    margin: 5px 7px 5px 0;
+  }
+
+  .price-tag li::before {
+    content: '$';
+  }
+
   /* footer tablet */
 
   .footer-legal {
@@ -619,6 +1064,17 @@ footer {
     font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   }
 
+  .grid-item a {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .writteen a {
+    font-size: 10px;
+    color: #555;
+  }
+
   .highlight_1 .header_title a {
     font-size: 60px;
     font-weight: 700;
@@ -654,5 +1110,94 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .latest-news {
+    margin-left: 3px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .latest_news_heading {
+    margin-left: 100px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin-left: 90px;
+    width: 100%;
+  }
+
+  .categories-section {
+    width: 29.5%;
+  }
+
+  .categories {
+    margin-left: 90px;
+  }
+
+  .latest-deals-section {
+    margin-left: 5px;
+  }
+
+  .latest-article-container {
+    display: grid;
+    gap: 23px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest-article-photo {
+    width: 100%;
+    height: 150px;
+    border: none;
+  }
+
+  /* latest deals */
+
+  .latest-deal-item {
+    position: relative;
+  }
+
+  .latest-deals-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latest-deal-item img {
+    width: 280px;
+    height: 201px;
+  }
+
+  .more-deals {
+    text-decoration: none;
+    color: #f42;
+  }
+
+  .price-tag {
+    padding: 0;
+    margin: 0;
+  }
+
+  .price-tag li {
+    display: inline;
+    margin: 5px 7px 5px 0;
+  }
+
+  .price-tag li::before {
+    content: '$';
+  }
+
+  .high-price {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 13px;
+  }
+
+  .good-price {
+    font-size: 20px;
+    color: #555;
   }
 }

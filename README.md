@@ -29,7 +29,7 @@ Desktop View Footer
 - Grid
 
 # Live Demo
-https://emmyn5600.github.io/TNW-clone-page-cont/
+ https://emmyn5600.github.io/TNW-clone-page-cont/
 
 # Getting started 
 
@@ -46,13 +46,13 @@ To get a local copy up and running follow these simple example steps.
 - Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
 
 - Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/
+$ git clone [](!git@github.com:Emmyn5600/TNW-clone-page-cont.git)
 
 - Press Enter key
 
 - Press Enter. Your local copy will be created.
 
-Please Note that you must have github installed on your PC, this can be done here.
+Please Note that you must have git installed on your PC, this can be done here.
 
 # Install
 
