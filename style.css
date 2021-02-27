@@ -420,10 +420,10 @@ a {
 /* Lates news */
 
 .latest-news-article {
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    gap: 15px;
-    margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 15px;
+  margin: 15px 0;
 }
 
 .latest-news-article-title {
@@ -449,7 +449,6 @@ a {
 .latest-news-article-title:hover {
   color: #f42;
 }
-
 
 /* Categories section */
 
@@ -871,8 +870,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .latest-news-article
-  {
+  .latest-news-article {
     display: flex;
     flex-direction: column;
   }
