@@ -959,7 +959,7 @@ footer {
   }
 
   .latest-deal-item img {
-    width: 220px;
+    width: 230px;
     height: 201px;
   }
 
@@ -1166,6 +1166,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .latest-deal-item img {
+    width: 280px;
+    height: 201px;
   }
 
   .more-deals {
