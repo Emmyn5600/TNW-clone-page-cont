@@ -17,6 +17,10 @@
 
 ![Mobile](./assets/img5.png)
 
+![Mobile](./assets/img6.png)
+
+![Mobile](./assets/img7.png)
+
 
 
 
