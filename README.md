@@ -17,7 +17,6 @@
 
 ![Mobile](./assets/img5.png)
 
-![Mobile](./assets/img6.png)
 
 ![Mobile](./assets/img7.png)
 
@@ -32,7 +31,7 @@
 - Grid
 
 # Live Demo
- https://emmyn5600.github.io/TNW-clone-page-cont/
+ [Live Demo Link](https://emmyn5600.github.io/TNW-clone-page-cont/)
 
 # Getting started 
 
