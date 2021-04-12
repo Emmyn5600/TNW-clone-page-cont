@@ -90,4 +90,4 @@ Give a ⭐️ if you like this project!
 
 # 📝 License 
 
-This project is [MI](https://github.com/microverseinc/readme-template/blob/master/lic.url) licensed.
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/lic.url) licensed.
