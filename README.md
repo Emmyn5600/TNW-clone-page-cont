@@ -3,23 +3,22 @@
 # The NextWeb Responsive Design
 - A project that is based on working Responsive Website Design.
 
-Mobile View Header
-![Mobile](./assets/head_mobile.png)
+![Mobile](./assets/img1.png)
 
-Tablet View Header
-![Tablet](./assets/head_tablet.png)
 
-Desktop View Header 
-![Desktop](./assets/head_desktop.png)
+![Tablet](./assets/img2.png)
 
-Mobile view Footer
-![Mobile](./assets/footer_mobile.png)
 
-Tablet View Footer
-![Mobile](./assets/footer_mobile.png)
+![Desktop](./assets/img3.png)
 
-Desktop View Footer
-![Mobile](./assets/footer_mobile.png)
+
+![Mobile](./assets/img4.png)
+
+
+![Mobile](./assets/img5.png)
+
+
+
 
 # Built With
 
